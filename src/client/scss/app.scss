@@ -1,0 +1,24 @@
+$theme-colors: (
+    'primary': #0091ea //Covalence Blue!  :D
+);
+
+@import '../../../node_modules/bootstrap/scss/bootstrap.scss';
+
+#root {
+    width: 100%;
+    min-height: 100%;
+    background-color: #64c0fa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.NavLinkActive {
+    color: grey;
+}
+
+.NavLinkActive:hover {
+    text-decoration: none;
+    cursor: pointer;
+    color: grey
+}
